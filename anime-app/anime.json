@@ -1,0 +1,330 @@
+{
+  "animes": [
+    {
+      "id": 1,
+      "src": "../../../assets/img/gintama.jpg",
+      "nome": "Gintama",
+      "nota": 9.9
+    },
+    {
+      "id": 2,
+      "src": "../../../assets/img/naruto.jpg",
+      "nome": "Naruto",
+      "nota": 8.6
+    },
+    {
+      "nome": "Dororo",
+      "src": "../../../assets/img/dororo.jpg",
+      "nota": 8.9,
+      "id": 3
+    },
+    {
+      "nome": "Dragon Ball Z",
+      "src": "../../../assets/img/dragon-ball.jpg",
+      "nota": 8.5,
+      "id": 4
+    },
+    {
+      "nome": "Kimetsu no Yaiba",
+      "src": "../../../assets/img/kimetsu.jpg",
+      "nota": 9.5,
+      "id": 5
+    },
+    {
+      "src": "../../../assets/img/fullmetal.jpg",
+      "nome": "Fullmetal Alchemist",
+      "nota": 9.8,
+      "id": 6
+    },
+    {
+      "src": "../../../assets/img/shingeki.jpg",
+      "nome": "Shingeki no Kyojin",
+      "nota": 9.6,
+      "id": 7
+    },
+    {
+      "src": "../../../assets/img/hero-shield.jpg",
+      "nome": "Hero Shield",
+      "nota": 8.9,
+      "id": 8
+    },
+    {
+      "src": "../../../assets/img/slime.jpg",
+      "nome": "That Time I Got Reincarnated as a Slime",
+      "nota": 8.9,
+      "id": 9
+    },
+    {
+      "src": "../../../assets/img/death-note.jpg",
+      "nome": "Death Note",
+      "nota": 7.6,
+      "id": 10
+    },
+    {
+      "src": "../../../assets/img/boku-no-hero.jpg",
+      "nome": "Boku no Hero",
+      "nota": 9.3,
+      "id": 11
+    },
+    {
+      "src": "../../../assets/img/hunterxhunter.jpg",
+      "nome": "Hunter x Hunter",
+      "nota": 9.4,
+      "id": 12
+    },
+    {
+      "src": "../../../assets/img/kuroko.jpg",
+      "nome": "Kuroko no Basket ",
+      "nota": 8,
+      "id": 13
+    },
+    {
+      "src": "../../../assets/img/one-punch-man.jpg",
+      "nome": "One Punch Man",
+      "nota": 8.4,
+      "id": 14
+    },
+    {
+      "src": "../../../assets/img/tokyo-ghoul.jpg",
+      "nome": "Tokyo Ghoul",
+      "nota": 9,
+      "id": 15
+    },
+    {
+      "src": "../../../assets/img/sword-art-online.jpg",
+      "nome": "Sword Art Online",
+      "nota": 7.3,
+      "id": 16
+    },
+    {
+      "src": "../../../assets/img/yakusoku.jpg",
+      "nome": "Yakusoku no Neverland",
+      "nota": 8.2,
+      "id": 17
+    },
+    {
+      "src": "../../../assets/img/haikyuu.jpg",
+      "nome": "Haikyuu",
+      "nota": 8.3,
+      "id": 18
+    },
+    {
+      "src": "../../../assets/img/noragami.jpg",
+      "nome": "Noragami",
+      "nota": 8.1,
+      "id": 19
+    },
+    {
+      "src": "../../../assets/img/nogame-nolife.jpg",
+      "nome": "No Game No Life",
+      "nota": 7.4,
+      "id": 20
+    },
+    {
+      "src": "../../../assets/img/nanatsu.jpg",
+      "nome": "Nanatsu No Taizai",
+      "nota": 7,
+      "id": 21
+    },
+    {
+      "src": "../../../assets/img/akame.jpg",
+      "nome": "Akame Ga Kill",
+      "nota": 8.1,
+      "id": 22
+    },
+    {
+      "src": "../../../assets/img/black-clover.jpg",
+      "nome": "Black Clover",
+      "nota": 9.2,
+      "id": 23
+    },
+    {
+      "src": "../../../assets/img/dr-stone.jpg",
+      "nome": "Dr.Stone",
+      "nota": 9.1,
+      "id": 24
+    },
+    {
+      "src": "../../../assets/img/blue-exorcist.jpg",
+      "nome": "Ao no Exorcist",
+      "nota": 7.6,
+      "id": 25
+    },
+    {
+      "src": "../../../assets/img/evangelion.jpg",
+      "nome": "Neon Genesis Evangelion",
+      "nota": 8.8,
+      "id": 26
+    },
+    {
+      "src": "../../../assets/img/shouboutai.jpg",
+      "nome": "Enen no Shouboutai",
+      "nota": 8.7,
+      "id": 27
+    },
+    {
+      "src": "../../../assets/img/tokyo-revengers.jpg",
+      "nome": "Tokyo Revengers",
+      "nota": 8.9,
+      "id": 28
+    },
+    {
+      "src": "../../../assets/img/bleach.jpg",
+      "nome": "Bleach",
+      "nota": 8.5,
+      "id": 29
+    },
+    {
+      "src": "../../../assets/img/fairy-tail.jpg",
+      "nome": "Fairy Tail",
+      "nota": 9.7,
+      "id": 30
+    },
+    {
+      "src": "../../../assets/img/psycho-pass.jpg",
+      "nome": "Psycho-Pass",
+      "nota": 8.4,
+      "id": 31
+    },
+    {
+      "src": "../../../assets/img/overlord.jpg",
+      "nome": "Overlord",
+      "nota": 8.5,
+      "id": 32
+    },
+    {
+      "src": "../../../assets/img/god-of-high-school.jpg",
+      "nome": "The God of High School",
+      "nota": 7.8,
+      "id": 33
+    },
+    {
+      "src": "../../../assets/img/goblin-slayer.jpg",
+      "nome": "Goblin Slayer",
+      "nota": 8.2,
+      "id": 34
+    },
+    {
+      "src": "../../../assets/img/magi.jpg",
+      "nome": "Magi",
+      "nota": 7.4,
+      "id": 35
+    },
+    {
+      "src": "../../../assets/img/tower-of-god.jpg",
+      "nome": "Tower of God",
+      "nota": 7.8,
+      "id": 36
+    },
+    {
+      "src": "../../../assets/img/hellsing.jpg",
+      "nome": "Hellsing",
+      "nota": 8.9,
+      "id": 37
+    },
+    {
+      "src": "../../../assets/img/castlevania.jpg",
+      "nome": "Castlevania",
+      "nota": 8.7,
+      "id": 38
+    },
+    {
+      "src": "../../../assets/img/vinland.jpg",
+      "nome": "Vinland Saga",
+      "nota": 8.9,
+      "id": 39
+    },
+    {
+      "src": "../../../assets/img/dungeon.jpg",
+      "nome": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+      "nota": 7.2,
+      "id": 40
+    },
+    {
+      "src": "../../../assets/img/one-piece.jpg",
+      "nome": "One Piece",
+      "nota": 10,
+      "id": 41
+    }
+  ],
+  "animes-selecionados": [
+    {
+      "id": 2,
+      "src": "../../../assets/img/naruto.jpg",
+      "nome": "Naruto",
+      "nota": 8.6
+    },
+    {
+      "nome": "Dororo",
+      "src": "../../../assets/img/dororo.jpg",
+      "nota": 8.9,
+      "id": 3
+    },
+    {
+      "nome": "Dragon Ball Z",
+      "src": "../../../assets/img/dragon-ball.jpg",
+      "nota": 8.5,
+      "id": 4
+    },
+    {
+      "src": "../../../assets/img/death-note.jpg",
+      "nome": "Death Note",
+      "nota": 7.6,
+      "id": 10
+    },
+    {
+      "src": "../../../assets/img/hunterxhunter.jpg",
+      "nome": "Hunter x Hunter",
+      "nota": 9.4,
+      "id": 12
+    },
+    {
+      "src": "../../../assets/img/kuroko.jpg",
+      "nome": "Kuroko no Basket ",
+      "nota": 8,
+      "id": 13
+    },
+    {
+      "src": "../../../assets/img/psycho-pass.jpg",
+      "nome": "Psycho-Pass",
+      "nota": 8.4,
+      "id": 31
+    },
+    {
+      "src": "../../../assets/img/blue-exorcist.jpg",
+      "nome": "Ao no Exorcist",
+      "nota": 7.6,
+      "id": 25
+    },
+    {
+      "src": "../../../assets/img/magi.jpg",
+      "nome": "Magi",
+      "nota": 7.4,
+      "id": 35
+    },
+    {
+      "src": "../../../assets/img/one-piece.jpg",
+      "nome": "One Piece",
+      "nota": 10,
+      "id": 41
+    },
+    {
+      "src": "../../../assets/img/god-of-high-school.jpg",
+      "nome": "The God of High School",
+      "nota": 7.8,
+      "id": 33
+    },
+    {
+      "src": "../../../assets/img/vinland.jpg",
+      "nome": "Vinland Saga",
+      "nota": 8.9,
+      "id": 39
+    },
+    {
+      "src": "../../../assets/img/akame.jpg",
+      "nome": "Akame Ga Kill",
+      "nota": 8.1,
+      "id": 22
+    }
+  ]
+}

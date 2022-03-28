@@ -1,0 +1,22 @@
+<form class="card__container" [formGroup]="formGroup">
+<div class="input__container">
+    <p class="update__title">Alterar Anime</p>
+    <label for="nome" class="label__nome">Nome</label>
+    <input type="text"  pInputText id="nome" class="input__nome" value="{{anime.nome}}" readonly autocomplete="off">
+    <label for="nota" class="label__nota">Nota</label>
+    <input type="number" pInputText id="nota" class="input__nota" [(ngModel)]="anime.nota" placeholder="Insira a nota do anime" autocomplete="off" formControlName="nota">
+    <ng-container *ngIf="formGroup.controls['nota'].touched" class="validator-nota__container">
+        <span *ngIf="formGroup.controls['nota'].errors?.['required']" class="validator-nota__required">
+        Campo obrigatório
+        </span>
+    </ng-container>
+    <span *ngIf="formGroup.controls['nota'].errors?.['max']" class="validator-nota__max">
+        Nota não pode ser maior que 10
+    </span>
+    <span *ngIf="formGroup.controls['nota'].errors?.['min']" class="validator-nota__min">
+        Nota não pode ser menor que 0
+    </span>
+    <button pButton type="button" class="p-button-raised button__save" (click)="save()" [disabled]="!formGroup.valid">Salvar</button>
+</div>
+<form>
+<p-toast position="top-right"></p-toast>

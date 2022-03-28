@@ -1,0 +1,10 @@
+<div class="title__container">
+    <p class="best-animes__title">Melhores Animes!</p>
+</div>
+<div class="best-animes__container">
+    <div *ngFor="let anime of animes" class="content__container">
+        <span class="anime__nome">{{ anime.nome }}</span>
+        <img class="anime__imagem" src="{{anime.src}}" alt="imagem do anime">
+        <span class="anime__nota">{{ anime.nota }}</span>
+    </div>
+</div>

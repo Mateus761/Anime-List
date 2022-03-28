@@ -1,0 +1,41 @@
+.table__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #40916c;
+    position: relative;
+    height: 100%;
+}
+
+.card__container {
+    width: 80rem;
+}
+
+.page__title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #40916c, #8eecf5, #b9fbc0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.p-button-warning {
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.p-button-danger {
+    height: 2rem;
+    width: 2rem;
+}
+
+.animes__img {
+    width: 5rem;
+    height: 3rem;
+}

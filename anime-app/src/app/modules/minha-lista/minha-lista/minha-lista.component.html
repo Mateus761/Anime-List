@@ -1,0 +1,31 @@
+<body class="table__container">
+    <div class="card__container">
+        <h1 class="page__title">Minha Lista</h1>
+    
+        <p-table [value]="animes" sortMode="multiple">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th pSortableColumn="id">Id <p-sortIcon field="id"></p-sortIcon></th>
+                    <th pSortableColumn="nome">Nome <p-sortIcon field="nome"></p-sortIcon></th>
+                    <th pSortableColumn="nota">Nota <p-sortIcon field="nota"></p-sortIcon></th>
+                    <th>Imagem</th>
+                    <th>Ações</th>
+                  </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-animes>
+                <tr>
+                    <td>{{animes.id}}</td>
+                    <td>{{animes.nome}}</td>
+                    <td>{{animes.nota}}</td>
+                    <td><img class="animes__img" src="{{animes.src}}" alt="Imagem do anime"></td>
+                    <td>
+                        <button pButton type="button" icon="pi pi-pencil" iconPos="left" routerLink="/alterar/{{ animes.id }}" class="p-button-warning"></button>
+                        <button pButton type="button" icon="pi pi-trash" iconPos="left" class="p-button-danger" (click)="delete(animes)"></button>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+ </body>
+<p-toast position="top-right"></p-toast>
+<p-confirmDialog header="Confirmation" icon="pi pi-exclamation-triangle"></p-confirmDialog>

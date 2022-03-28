@@ -1,0 +1,55 @@
+.best-animes__container {
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #40916c;  
+}
+
+.title__container {
+    display: flex;
+    justify-content: center;
+    background-color: #40916c; 
+}
+
+.best-animes__title {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #40916c, #8eecf5, #b9fbc0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.content__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #e85d04
+}
+
+.anime__nome {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.anime__imagem {
+    width: 15rem;
+    height: 10rem;
+}
+
+.anime__nota {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-family: cursive
+}
